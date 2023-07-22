@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+html,body{
+    height: 100%;
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+}
+
+span{
+    font-family: 'Raleway', sans-serif;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 450;
+    font-size: 20px;
+}
+
+.pimg1{
+    background-image: url(./assets/img1.jpg);
+    min-height: 100%;
+}
+
+.pimg2{
+    background-image: url(./assets/wildlife.jpg);
+    min-height: 600px;
+}
+
+.pimg3{
+    background-image: url(./assets/wedding1.jpg);
+    min-height:600px;
+}
+
+.pimg4{
+    background-image: url(./assets/fashion2.jpg);
+    min-height: 600px;
+}
+
+.pimg5{
+    background-image: url(./assets/img2.jpg);
+    min-height: 100%;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.textbg{
+    background-color: transparent;
+    border: 1px solid grey;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.section{
+    padding: 50px 80px;
+    text-align: justify;
+}
+
+.section > h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.section-dark{
+    background-color: #262b2d;
+    color: #ddd;
+}
+
+.pimg5 > .ptext{
+    top:50%; 
+    right: 27%;       
+}
